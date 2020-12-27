@@ -17,7 +17,7 @@
 *
 * @package language
 * @system [English]
-* @version 45d0
+* @version 45d1
 *
 */
 
@@ -39,8 +39,10 @@ $a_lang_array = (array(
   'adm_tool_sql_page_header' => 'SQL server parameters',
 
   'adm_tool_sql_server_version' => 'Server version',
-  'adm_tool_sql_client_version' => 'Libriary version',
-  'adm_tool_sql_host_info' => 'OS communication method',
+  'adm_tool_sql_client_version' => 'Library version',
+  'adm_tool_sql_host_info' => 'Communication method',
+  
+  'adm_confirm_do' => 'Confirm',
 
   'adm_tool_sql_table' => array(
     'server' => array(
@@ -77,7 +79,7 @@ $a_lang_array = (array(
   'adm_opt_user_birthday_gift' => 'Birthday gift',
   'adm_opt_user_birthday_gift_disable' => '0 - disable gifts',
   'adm_opt_user_birthday_range' => 'Retro-birthday, in days',
-  'adm_opt_user_birthday_range_hint' => 'How far in past can be user birthday for giving him gift. Obviously can not be more then 364 days',
+  'adm_opt_user_birthday_range_hint' => 'How far in the past can a birthday be located for a player to receive a gift. It cannot be more than 364 days.',
 
   'adm_done' => 'Successfully Completed',
   'adm_inactive_removed' => '<li>Remove inactive players: %d</li>',
